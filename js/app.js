@@ -20,6 +20,7 @@ function init() {
 	reset();
 	gBoard = buildBoard();
 	renderBoard(gBoard);
+	console.log(gBoard)
 
 	addRndBalls();
 	addGlue();
